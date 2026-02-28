@@ -1,0 +1,131 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yihao Xue | Personal Website</title>
+  <meta name="description" content="Yihao Xue's personal website." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Fraunces:opsz,wght@9..144,400;9..144,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home">YX</a>
+    <nav>
+      <a href="#publications">Publications</a>
+      <a href="#preprints">Preprints</a>
+      <a href="#experience">Experience</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero section">
+      <div class="hero-content">
+        <h1>Yihao Xue</h1>
+        <div class="profile-links">
+          <span class="profile-email">yihaoxue [at] g.ucla.edu</span>
+          <a href="https://www.linkedin.com/in/yihao-xue-203572232/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://scholar.google.com/citations?user=vMHVm8MAAAAJ&hl=en" target="_blank" rel="noreferrer">Google Scholar</a>
+        </div>
+        <div class="subtitle">
+          <p>
+            I am a final-year PhD candidate in the Computer Science Department at UCLA, advised by
+            Professor
+            <a href="http://web.cs.ucla.edu/~baharan/" target="_blank" rel="noreferrer">Baharan Mirzasoleiman</a>.
+            Prior to this, I completed my undergraduate studies at Shanghai Jiao Tong University.
+          </p>
+          <p>
+            My research focuses on understanding and improving the reliability of machine learning systems,
+            specifically examining whether models behave as intended under imperfect conditions (e.g., imperfect
+            supervision and imperfect training environments). I study these challenges across different training
+            paradigms, including supervised learning, self-supervised learning, and language models. 
+          </p>
+          <p> 
+            I am a recipient
+            of the
+            <a href="https://openai.com/blog/superalignment-fast-grants" target="_blank" rel="noreferrer">OpenAI Superalignment Grant</a>.
+          </p>
+        </div>
+      </div>
+      <figure class="hero-photo">
+        <img src="IMG_9106.jpg" alt="Portrait of Yihao Xue" />
+        <figcaption>Me and Brie</figcaption>
+      </figure>
+    </section>
+
+    <section id="publications" class="section">
+      <div class="section-head">
+        <h2>Publications</h2>
+      </div>
+      <div id="publicationList" class="paper-list"></div>
+    </section>
+
+    <section id="preprints" class="section">
+      <div class="section-head">
+        <h2>Preprints</h2>
+      </div>
+      <div id="preprintList" class="paper-list"></div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="section-head">
+        <h2>Experience</h2>
+      </div>
+      <div class="paper-list">
+        <article class="paper-card">
+          <h3>Student Researcher, Google</h3>
+          <p class="experience-date">Jun. 2025 - Jan. 2026</p>
+          <p>
+            With
+            <a href="https://www.di.ens.fr/~vcohen/" target="_blank" rel="noreferrer">Vincent Cohen-Addad</a>.
+            Designing optimal test-time scaling strategies to improve Gemini's reasoning.
+          </p>
+        </article>
+        <article class="paper-card">
+          <h3>Research Intern, MIT-IBM Watson AI Lab</h3>
+          <p class="experience-date">Jun. 2024 - Sept. 2024</p>
+          <p>
+            With
+            <a href="https://ymroueh.me/" target="_blank" rel="noreferrer">Youssef Mroueh</a>
+            and
+            <a href="https://kgreenewald.github.io/" target="_blank" rel="noreferrer">Kristjan Greenewald</a>.
+            Worked on hallucination detection of LLMs.
+          </p>
+        </article>
+        <article class="paper-card">
+          <h3>Research Intern, Cisco</h3>
+          <p class="experience-date">Jun. 2022 - Sep. 2022</p>
+          <p>
+            With
+            <a href="https://scholar.google.com/citations?user=9rHwD8wAAAAJ&hl=en" target="_blank" rel="noreferrer">Ali Payani</a>.
+            Worked on few-shot domain adaptation.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="more-about" class="section card">
+      <h2>More About Me</h2>
+      <p>
+        My last name is pronounced [sh EW eh]. I enjoy playing tennis and ping-pong, watching TV shows, and
+        spending time relaxing.
+      </p>
+      <p>
+        I also listen to a lot of classical music - here's a glimpse of my current top 6 favorite musicians:
+        <a href="musicians.html">see the list</a>.
+      </p>
+      <p>
+        Feel free to reach out if you share similar interests (or want to talk research).
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Yihao Xue</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

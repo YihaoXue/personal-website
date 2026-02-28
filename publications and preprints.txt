@@ -1,0 +1,67 @@
+Publications
+
+Representations Shape Weak-to-Strong Generalization: Theoretical Insights and Empirical Predictions
+https://arxiv.org/abs/2502.00620
+Yihao Xue, Jiping Li, Baharan Mirzasoleiman
+ICML, 2025
+
+
+Few-shot Adaption to Distribution Shifts By Mixing Source and Target Embeddings
+https://arxiv.org/abs/2305.14521
+Yihao Xue, Ali Payani, Yu Yang, Baharan Mirzasoleiman
+ICML, 2024
+
+
+Investigating the Impact of Model Width and Density on Generalization in Presence of Label Noise
+https://arxiv.org/abs/2208.08003
+Yihao Xue, Kyle Whitecross, Baharan Mirzasoleiman
+
+UAI, 2024 (Spotlight)
+
+
+Understanding the Robustness of Multi-modal Contrastive Learning to Distribution Shift
+https://arxiv.org/pdf/2310.04971.pdf
+Yihao Xue, Siddharth Joshi, Dang Nguyen, Baharan Mirzasoleiman
+ICLR, 2024
+
+
+Investigating the Benefits of Projection Head for Representation Learning
+https://openreview.net/pdf?id=GgEAdqYPNA
+Yihao Xue, Eric Gan, Jiayi Ni, Siddharth Joshi, Baharan Mirzasoleiman
+ICLR, 2024
+
+
+Which Features are Learnt by Contrastive Learning? On the Role of Simplicity Bias in Class Collapse and Feature Suppression.
+https://arxiv.org/abs/2305.16536
+Yihao Xue,  Siddharth Joshi, Eric Gan, Pin-Yu Chen, Baharan Mirzasoleiman
+ICML, 2023 (Oral Presentation, 2.37%)
+[project page] https://sjoshi804.github.io/icml-cc-fs/
+
+
+Investigating Why Contrastive Learning Benefits Robustness Against Label Noise
+https://arxiv.org/abs/2201.12498
+Yihao Xue, Kyle Whitecross, Baharan Mirzasoleiman
+ICML, 2022
+
+
+Preprints
+
+Beyond What Seems Necessary: Hidden Gains from Scaling Training-Time Reasoning Length under Outcome Supervision
+https://arxiv.org/abs/2602.00927
+Yihao Xue, Allan Zhang, Jianhao Huang, Amit Sahai, Baharan Mirzasoleiman
+
+LoRA is All You Need for Safety Alignment of Reasoning LLMs
+https://arxiv.org/abs/2507.17075
+Yihao Xue, Baharan Mirzasoleiman
+[code] https://github.com/YihaoXue/lora-safety-reasoning
+
+
+Verify when Uncertain: Beyond Self-Consistency in Black Box Hallucination Detection
+https://arxiv.org/abs/2502.15845
+Yihao Xue, Kristjan Greenewald, Youssef Mroueh, Baharan Mirzasoleiman
+
+
+Towards Mitigating Spurious Correlations in the Wild: A Benchmark & a more Realistic Dataset
+https://arxiv.org/abs/2306.11957
+Siddharth Joshi, Yu Yang, Yihao Xue, Wenhan Yang and Baharan Mirzasoleiman
+
