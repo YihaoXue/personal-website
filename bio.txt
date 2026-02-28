@@ -1,3 +1,0 @@
-I am Yihao, a final-year PhD candidate in the Computer Science Department at UCLA, advised by Professor Baharan Mirzasoleiman [http://web.cs.ucla.edu/~baharan/]. Prior to this, I completed my undergraduate studies at Shanghai Jiao Tong University.
-
-My research focuses on understanding and improving the reliability of machine learning systems, specifically examining whether models behave as intended under imperfect conditions (e.g., imperfect supervision and imperfect training environments). I study these challenges across different training paradigms, including supervised learning, self-supervised learning, and language models. I am a recipient of the OpenAI Superalignment Grant [https://openai.com/blog/superalignment-fast-grants].
